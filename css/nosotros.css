@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: #0000ff;
+    font-size: 300%;
+    height: 20px;
+
+}
+p{
+    margin-top: 30%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+body{
+    background-image: url(./css/img/Copilot_20260907_190557.png);
+    background-size: cover; /*ajusta la imagen a la pantalla */
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+}
+.card-nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-nosotros img{
+    width: 40%;
+    background-size: cover;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.card-title{
+    text-align: center;
+    font-size: 280%;
+    color: brown;
+
+}
