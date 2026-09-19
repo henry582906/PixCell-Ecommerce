@@ -46,20 +46,37 @@
     </nav>
   </header>
   <main>
-    <!-- Pega esto dentro de tu <body> -->
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-    <div style="display: flex; gap: 80px; align-items: start; padding: 20px; border: 1px solid #ccc;">
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
 
-      <img src="assets/Copilot_20260907_190557.png" style="width: 400px; height: auto; border-radius: 10px;">
-
-      <div>
-        <h3>Celular Miro C69m</h3>
-        <p>256gb 8gb Android 15 - Nuevo</p>
-        <h2 style="color: green;">$160.870</h2>
-        <p>Este texto ya te va a quedar a la derecha, no abajo.</p>
-      </div>
-
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/D_NQ_NP_2X_785856-MLA107595059748_032026-F.webp" alt="Los Angeles" class="d-block w-100">
     </div>
+    <div class="carousel-item">
+      <img src="assets/pexels-film-eye-2148927512-32671641.jpg" alt="Chicago" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/Copilot_20260907_190557.png" alt="New York" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
   </main>
   <footer>
 
