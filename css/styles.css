@@ -1,35 +1,14 @@
-:root{
-    --color-rojo-intenso: #D32F2F;
-    --color-azul-electrico: #1976D2;
-    --color-blanco: #FFFFFF;
-    --color-plateado: #B0BEC5;
-    --color-gris-oscuro: #212121;
-}
+@import url(main-destacados.css);
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
-.card{
-    width: 100%;
-    max-width: 250px;
-}
-
-.card img{
-    height: 200px;
-    object-fit: contain;
-}
-
-.btn{
-    background-color: var(--color-rojo-intenso);
-    color: #ffffff;
-    transition: 0.3s;
-}
-
-.btn:hover{
-    background-color: var(--color-rojo-intenso);
-    color: #ffffff;
-    transform: scale(1.05);
+:root{
+    --color-rojo-intenso: #D32F2F;
+    --color-azul-electrico: #1976D2;
+    --color-blanco: #FFFFFF;
+    --color-plateado: #B0BEC5;
+    --color-gris-oscuro: #212121;
 }
