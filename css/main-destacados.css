@@ -1,0 +1,21 @@
+.card{
+    width: 100%;
+    max-width: 250px;
+}
+
+.card img{
+    height: 200px;
+    object-fit: contain;
+}
+
+.btn{
+    background-color: var(--color-rojo-intenso);
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: var(--color-rojo-intenso);
+    color: #ffffff;
+    transform: scale(1.05);
+}
