@@ -52,11 +52,11 @@
   transition: 0.3s;
 }
 
-.footer-col ul li a:hover { color: white; }
-.footer-col ul li:nth-child(1) a:hover { color: #E4405F; }
-.footer-col ul li:nth-child(2) a:hover { color: #1877F2; }
-.footer-col ul li:nth-child(3) a:hover { color: #ffffff; }
-.footer-col ul li:nth-child(4) a:hover { color: #00f2ea; }
+
+.footer-col ul li:nth-child(1) a:hover i { color: #E4405F; }
+.footer-col ul li:nth-child(2) a:hover i { color: #1877F2; }
+.footer-col ul li:nth-child(3) a:hover i { color: #aaaaaa; }
+.footer-col ul li:nth-child(4) a:hover i { color: #00f2ea; }
 
 .footer-col ul li a i {
   margin-right: 8px;
@@ -64,9 +64,28 @@
 }
 .footer-bottom{
   border-top: 1px solid #222;
-  margin-top: 20px;
-  padding-top: 15px;
+  margin-top: 15px;
+  padding-top: 10px;
   text-align: center;
   color: #777;
   font-size: 13px;
 }
+
+.footer-pixcell a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.footer-logo {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto 8px auto;
+}
+
+.footer-bottom p{
+  color: #666 !important;
+  font-size: 15px !important;
+  margin: 0;
+}
+
