@@ -1,0 +1,10 @@
+.carousel-banner{
+    height: 380px;
+}
+
+.carousel-banner img{
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    object-position: contain;
+}

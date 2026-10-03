@@ -9,9 +9,13 @@
    
     
 }
-body.pixcellregistro{
+.pixcellregistro{
     background-image: url(../assets/Copilot_20260907_190557.png);
     background-position: center;
     background-size: contain;
     
+}
+.inicio-sesion{
+    background-color: red;
+    margin-top: 0 0;
 }

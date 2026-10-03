@@ -1,7 +1,18 @@
-body.error{
+.error{
     background-image: url(../assets/Copilot_20260907_190557.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     
 }
+.error400{
+    margin-top: 100px;
+    animation: aparecer 2s infinite
+
+}
+@keyframes aparecer{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+

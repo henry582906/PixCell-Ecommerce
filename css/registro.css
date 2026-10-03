@@ -1,19 +1,31 @@
-.registro{
-    text-align: center;
-    margin-top: 20px;
-    width: 90%;
+.registro-manuell{
+    background-color: var(--color-azul-electrico);
 }
+.pixcell-billy{
+    background-color: var(--color-plateado);
 
-.pixcell{
+}
+.pixcell-billy{
+    background-color: var(--color-azul-electrico);
     background-image: url(../assets/Copilot_20260907_190557.png);
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    margin: 0;
+    background-size: 520px;
+}
+.registro-billy{
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+}
+.campo{
+    margin-bottom: 9%;
 
 }
-body{
-    background-color: #d8d8ba;
+
+.campo input{
+    width: 100%;
+
 }
