@@ -12,28 +12,37 @@ p{
     color: blue;
 }
 body{
-    background-image: url(./css/img/Copilot_20260907_190557.png);
+    background-image: url();
     background-size: cover; /*ajusta la imagen a la pantalla */
     background-repeat:  no-repeat;
     background-attachment: fixed;
+    justify-content: center;
+    background-color: var(--color-gris-oscuro);
 }
 .card-nosotros{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 30px;
+    padding-top: 15px;
 }
 
 .card-nosotros img{
-    width: 40%;
-    background-size: cover;
-    border-radius: 50%;
-    text-align: center;
+    width: 250px !important;
+  height: 250px !important;
+  min-width: 250px !important;
+  min-height: 250px !important;
+  max-width: none !important;
+  object-fit: cover;
+  border-radius: 50% !important;
+  display: block !important;
 
 }
 .card-title{
     text-align: center;
     font-size: 280%;
     color: brown;
+    margin-top: 8px;
 
 }
