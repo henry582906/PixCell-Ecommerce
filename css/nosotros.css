@@ -1,17 +1,17 @@
-h1{
+.nosotros-presentacion h1{
     text-align: center;
     color: #0000ff;
     font-size: 300%;
     height: 20px;
 
 }
-p{
+.nosotros-presentacion p{
     margin-top: 30%;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
 }
-body{
+.nosotros{
     background-image: url();
     background-size: cover; /*ajusta la imagen a la pantalla */
     background-repeat:  no-repeat;
@@ -39,7 +39,7 @@ body{
   display: block !important;
 
 }
-.card-title{
+.titulo-card{
     text-align: center;
     font-size: 280%;
     color: brown;

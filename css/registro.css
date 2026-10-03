@@ -1,8 +1,8 @@
-a.registro-manuell{
+.registro-manuell{
     background-color: var(--color-azul-electrico);
 }
-body{
-    background-color: var(--color-plateado-#B0BEC5);
+.pixcell-billy{
+    background-color: var(--color-plateado);
 
 }
 .pixcell-billy{
