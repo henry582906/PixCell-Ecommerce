@@ -15,3 +15,7 @@ body.pixcellregistro{
     background-size: contain;
     
 }
+a.inicio-sesion{
+    background-color: red;
+    margin-top: 0 0;
+}
