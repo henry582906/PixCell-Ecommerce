@@ -1,9 +1,9 @@
-.card{
+.card-producto-celular{
     width: 100%;
     max-width: 250px;
 }
 
-.card img{
+.card-producto-celular img{
     height: 200px;
     object-fit: contain;
 }

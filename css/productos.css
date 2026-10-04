@@ -40,7 +40,25 @@
     border-radius: 10px;
 }
 
-.card-descripcion{
+.card-detalle-producto{
     background-color: var(--color-blanco);
-    height: 100px;
+    width: 100%;
+    max-width: 250px;
+    height: 120px;
+    border-radius: 10px;
+
+}
+
+.card-detalle-producto img{
+    width: 40px;
+    height: 40px;
+    padding-bottom: 5px;
+}
+
+.card-detalle-producto h5{
+    font-size: 15px;
+}
+
+.card-detalle-producto p{
+    font-size: 12px;
 }
