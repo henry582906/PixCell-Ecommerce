@@ -1,10 +1,23 @@
 
+body.nosotros{
+    background-color: #e9ecef;
+}
+
+
 
 .sobre-nosotros-e-commerce{
     text-align: center;
     font-size: 60px;
     color: #0f172a;
     
+}
+
+.sobre-nosotros-e-commerce{
+    transition: all 0.3s ease;
+}
+.sobre-nosotros-e-commerce:hover{
+    transform: translate(-9px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0, 2);
 }
 .nosotros{
     background-color: #f8fafc;
@@ -18,7 +31,7 @@
     font-size: 25px;
     padding-bottom: 40px;
     text-align: center;
-    border-bottom: 1px solid #2e8f0; 
+    border-bottom: 1px solid #e2e8f0; 
 }
 .henry{
     font-size: 35px;
@@ -44,8 +57,27 @@
     margin-bottom: 70px;
     padding-bottom: 40px;
     border-bottom: 1px solid #e2e8f0;
+    
+}
+
+.sobre-mi img{
+    transition: all 0.3s ease;
+   
+}
+.sobre-mi img:hover{
+     transform: translatey(-9px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0, 2);
 
 }
+.henry{
+    transition: all 0.3s ease;
+}
+.henry:hover{
+    transform: translate(-9px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0, 2);
+}
+
+
 
 .sobre-mi article{
     width: 50%;
@@ -83,4 +115,11 @@ padding: 40px;
 .contacto-henry a{
     display: inline-block;
     text-decoration: none;
+}
+.volver-inicio{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    font-size: 20px;
+
 }
