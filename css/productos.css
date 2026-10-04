@@ -39,3 +39,8 @@
     color: var(--color-blanco);
     border-radius: 10px;
 }
+
+.card-descripcion{
+    background-color: var(--color-blanco);
+    height: 100px;
+}
