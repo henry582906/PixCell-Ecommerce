@@ -62,3 +62,13 @@
 .card-detalle-producto p{
     font-size: 12px;
 }
+
+.contenido-de-caja{
+    text-align: center;
+}
+
+.contenido-de-caja ul{
+    text-align: start;
+    padding-left: 22%;
+    padding-right: 22%;
+}
