@@ -1,15 +1,15 @@
-.carousel-celular{
+.carousel-celular {
     height: 500px;
 }
 
-.img-celular{
+.img-celular {
     height: 100%;
     width: auto;
     margin: 0 auto;
     object-fit: contain;
 }
 
-.nube{
+.nube {
     width: 100%;
     height: 100%;
     margin: 20px;
@@ -17,22 +17,28 @@
     background-color: #E2E2E2;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 20px;
+    transition: 0.3s ease;
 }
 
-.nube h2{
+.nube:hover {
+    transform: scale(1.01);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+}
+
+.nube h2 {
     font-weight: bold;
     font-size: 40px;
 }
 
-.nube p{
+.nube p {
     font-size: 25px;
 }
 
-.nube span{
+.nube span {
     font-size: 25px;
 }
 
-.nube button{
+.nube button {
     width: 100%;
     height: 50px;
     background-color: var(--color-rojo-intenso);
@@ -40,34 +46,39 @@
     border-radius: 10px;
 }
 
-.card-detalle-producto{
+.card-detalle-producto {
     background-color: var(--color-blanco);
     width: 100%;
     max-width: 250px;
     height: 120px;
     border-radius: 10px;
-
+    transition: 0.3s ease;
 }
 
-.card-detalle-producto img{
+.card-detalle-producto:hover {
+    transform: scale(1.01);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+}
+
+.card-detalle-producto img {
     width: 40px;
     height: 40px;
     padding-bottom: 5px;
 }
 
-.card-detalle-producto h5{
+.card-detalle-producto h5 {
     font-size: 15px;
 }
 
-.card-detalle-producto p{
+.card-detalle-producto p {
     font-size: 12px;
 }
 
-.contenido-de-caja{
+.contenido-de-caja {
     text-align: center;
 }
 
-.contenido-de-caja ul{
+.contenido-de-caja ul {
     text-align: start;
     padding-left: 22%;
     padding-right: 22%;
@@ -77,10 +88,10 @@
     color: #ffc107;
 }
 
-.comentario-personalizado img{
+.comentario-personalizado img {
     width: 50px;
 }
 
-.texto-comentario p{
+.texto-comentario p {
     font-size: 20px;
 }

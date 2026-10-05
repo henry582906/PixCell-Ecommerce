@@ -13,13 +13,14 @@
     object-fit: contain;
 }
 
-.btn-lista{
+.btn{
     background-color: var(--color-rojo-intenso);
     color: #ffffff;
     transition: 0.3s;
+    border: none;
 }
 
-.btn-lista:hover{
+.btn:hover{
     background-color: var(--color-rojo-intenso);
     color: #ffffff;
     transform: scale(1.05);
