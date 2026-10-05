@@ -72,3 +72,15 @@
     padding-left: 22%;
     padding-right: 22%;
 }
+
+.estrellas i {
+    color: #ffc107;
+}
+
+.comentario-personalizado img{
+    width: 50px;
+}
+
+.texto-comentario p{
+    font-size: 20px;
+}
