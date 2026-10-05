@@ -1,0 +1,35 @@
+.inicio-sesion {
+    margin-right: 10px;
+    border-radius: 9%;
+}
+
+.registro-manuell {
+    border-radius: 9%;
+}
+
+.nav-item {
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0, 2);
+}
+
+@media(max-width: 989px) {
+    .inicio-sesion {
+        width: 100px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 9%;
+        margin-bottom: 10px;
+    }
+
+    .registro-manuell {
+        width: 100px;
+        text-align: center;
+        border-radius: 9%;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
