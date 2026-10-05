@@ -24,6 +24,7 @@
     background-color: var(--color-plateado);
     text-align: left;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 .campo{
     margin-bottom: 9%;
@@ -36,4 +37,6 @@
 }
 .crear-cuenta{
     background-color: aquamarine;
+    margin-top: 10px;
+    border-radius: 5px;
 }

@@ -15,15 +15,16 @@
     <form class="form-sesion" action="error.html"><!--aqui se agrega para re dirigir a la pagina error-->
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nombre@ejemplo.com" autocomplete="email" required>
             <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie más..</div>
         </div>
         <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mínimo 8 caracteres, 1 mayúscula y 1 número"
+          autocomplete="new-password" minlength="8" required>
         </div>
         <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
             <label class="form-check-label" for="exampleCheck1">Acepto terminos y condiciones</label>
         </div>
         <button type="submit" class="btn btn-primary">Continuar</button>
