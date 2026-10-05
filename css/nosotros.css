@@ -1,0 +1,179 @@
+.sobre-mi img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.nosotros{
+    background-color: #e9ecef;
+}
+
+
+
+.sobre-nosotros-e-commerce{
+    text-align: center;
+    font-size: 60px;
+    color: #0f172a;
+    
+}
+
+.sobre-nosotros-e-commerce{
+    transition: all 0.3s ease;
+}
+.sobre-nosotros-e-commerce:hover{
+    transform: translate(-9px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0, 2);
+}
+.nosotros{
+    background-color: #f8fafc;
+}
+
+.sobre-nosotros{
+    background-color: #ffffff;
+}
+.historia{
+    color: #334155;
+    font-size: 25px;
+    padding-bottom: 40px;
+    text-align: center;
+    border-bottom: 1px solid #e2e8f0; 
+}
+.henry{
+    font-size: 35px;
+    color: #2563eb;
+}
+.henryp1{
+    font-size: 30px;
+    color: #1e293b;
+}
+.henryp{
+    font-size: 22px;
+    color: #475569;
+}
+
+
+
+.sobre-mi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    margin-bottom: 70px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e2e8f0;
+    
+}
+
+.sobre-mi img{
+    transition: all 0.3s ease;
+   
+}
+.sobre-mi img:hover{
+     transform: translatey(-9px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0, 2);
+
+}
+.henry{
+    transition: all 0.3s ease;
+}
+.henry:hover{
+    transform: translate(-9px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0, 2);
+}
+
+
+
+.sobre-mi article{
+    width: 50%;
+    min-width: 280px;
+
+}
+.henry{
+    margin-bottom: 20px;
+
+
+}
+.sobre-mi img{
+    width:350px ;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.contacto-henry{
+text-align: center;
+padding: 40px;
+}
+.contacto-henry h3{
+    color: #0f172a;
+
+}
+.contacto a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.contacto-henry a{
+    display: inline-block;
+    text-decoration: none;
+}
+.volver-inicio{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    font-size: 20px;
+
+}
+/*no de emergencia  malas practicas no*/
+/* RESPONSIVE - solo se activa en celular */
+@media (max-width: 768px) {
+  .sobre-nosotros-e-commerce {
+    font-size: 32px; /* de 60px a 32px en celu */
+  }
+  /* Función: achica el titulo para que no se salga */
+
+  .historia, .henryp, .henryp1 {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* Función: texto más chico y con aire a los costados */
+
+  .sobre-mi {
+    flex-direction: column; /* de fila a columna */
+    justify-content: center;
+  }
+  /* Función: en celu pone texto arriba y foto abajo. Antes tenías space-around que en celu queda mal */
+
+  .sobre-mi article {
+    width: 100%; /* de 50% a 100% en celu */
+  }
+  /* Función: el texto ocupa todo el ancho del celular */
+
+  .sobre-mi img {
+    width: 220px;
+    height: 220px;
+    order: -1; /* la foto sube arriba */
+  }
+  /* Función: foto más chica y arriba del texto, queda más prolijo en mobile */
+}
+
+.volver-inicio a{
+    background-color: #1976D2;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.volver-inicio a:hover{
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.18);
+}

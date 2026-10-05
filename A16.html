@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixCell</title>
+    <link rel="icon" href="assets/Copilot_20260907_190557.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="assets/Copilot_20260907_190557.png"
+            width="100px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html" target="_blank" style="color: black ;">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productos" style="color: black;">Modelos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer-redes" style="color: black;">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link inicio-sesion" href="sesion.html" style="color: white;" target="_blank">Inicio
+                sesion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link registro-manuell" href="registro.html" style="color: white;"
+                target="_blank">Registro</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">  <!--se agrego esto para el carrito lo envuelve-->
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <a href="error.html" class="btn btn-primary" type="button">Busqueda</a>
+            </form>
+            <!--carrito-->
+            <a href="carrito.html" class="ms-3 text-dark fs-4"> <i class="bi bi-cart3"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <main>
+        <section class="productos pt-5 pb-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <div class="row g-4">
+                            <div class="col-lg-6 col-md-12 col-12">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-lg-12">
+                                        <div class="row">
+                                            <div id="carouselExampleIndicators" class="carousel slide carousel-dark">
+                                                <div class="carousel-indicators">
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                                        aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                        data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                                </div>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item carousel-celular active">
+                                                        <img src="assets/D_NQ_NP_2X_988202-MLA99854807973_112025-F.webp"
+                                                            class=" d-block img-celular" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item carousel-celular">
+                                                        <img src="assets/galaxy-a16-black-frontside.png"
+                                                            class="d-block img-celular" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item carousel-celular ">
+                                                        <img src="assets/galaxy-a16-black-back.png"
+                                                            class="d-block img-celular" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item carousel-celular ">
+                                                        <img src="assets/galaxy-a16-black-side.png"
+                                                            class="d-block img-celular" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item carousel-celular ">
+                                                        <video src="assets/A16video.mp4" class="d-block img-celular"
+                                                            controls poster="assets/videoframe_24667.png"></video>
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-6 col-md-12 col-12 d-flex justify-content-center align-items-center presentacion-celular">
+                                <div class="nube">
+                                    <h2>Samsung Galaxy A16</h2>
+                                    <p>128GB de ROM</p>
+                                    <p>4GB de RAM</p>
+                                    <p>Garantia oficial de PixCell</p>
+                                    <span class="d-block pt-5 pb-5">$199.900</span>
+                                    <a class="btn-compra" href="carrito.html">Agregar al carrito</a>
+
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-6 col-md-12 col-12 d-flex justify-content-center align-items-center presentacion-celular">
+                                <div class="nube">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-12">
+                                            <div class="row g-3">
+                                                <article class="col-lg-4 col-md-4 col-6">
+                                                    <div class="card card-detalle-producto p-2">
+                                                        <img src="assets/icon-storage.svg" class="card-img-top"
+                                                            alt="...">
+                                                        <div class="card-body-detalles">
+                                                            <h5 class="card-title">Almacenamiento</h5>
+                                                            <p class="card-text">128 GB</p>
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                                <article class="col-lg-4 col-md-4 col-6 d-flex justify-content-center">
+                                                    <div class="card card-detalle-producto p-2">
+                                                        <img src="assets/icon-front-camera.svg" class="card-img-top"
+                                                            alt="...">
+                                                        <div class="card-body-detalles">
+                                                            <h5 class="card-title">Camara frontal</h5>
+                                                            <p class="card-text">13 MP</p>
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                                <article class="col-lg-4 col-md-4 col-6 d-flex justify-content-center">
+                                                    <div class="card card-detalle-producto p-2">
+                                                        <img src="assets/icon-back-camera.svg" class="card-img-top"
+                                                            alt="...">
+                                                        <div class="card-body-detalles">
+                                                            <h5 class="card-title">Camara posterior</h5>
+                                                            <p class="card-text">50MP+5MP+2MP</p>
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                                <article class="col-lg-4 col-md-4 col-6 d-flex justify-content-center">
+                                                    <div class="card card-detalle-producto p-2">
+                                                        <img src="assets/icon-os.svg" class="card-img-top" alt="...">
+                                                        <div class="card-body-detalles">
+                                                            <h5 class="card-title">Sietema operativo</h5>
+                                                            <p class="card-text">Android 14</p>
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                                <article class="col-lg-4 col-md-4 col-6 d-flex justify-content-center">
+                                                    <div class="card card-detalle-producto p-2">
+                                                        <img src="assets/icon-battery.svg" class="card-img-top"
+                                                            alt="...">
+                                                        <div class="card-body-detalles">
+                                                            <h5 class="card-title">Bateria</h5>
+                                                            <p class="card-text">Li-Po 5000 mAh</p>
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                                <article
+                                                    class="col-lg-4 col-md-4 col-6 d-lg-flex justify-content-center">
+                                                    <div class="card card-detalle-producto p-2">
+                                                        <img src="assets/icon-ram.svg" class="card-img-top" alt="...">
+                                                        <div class="card-body-detalles">
+                                                            <h5 class="card-title">RAM</h5>
+                                                            <p class="card-text">4 GB</p>
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                                <article
+                                                    class="col-lg-4 col-md-4 col-6 d-lg-flex justify-content-center">
+                                                    <div class="card card-detalle-producto p-2">
+                                                        <img src="assets/icon-screen.svg" class="card-img-top"
+                                                            alt="...">
+                                                        <div class="card-body-detalles">
+                                                            <h5 class="card-title">Pantalla</h5>
+                                                            <p class="card-text">6,5"</p>
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex justify-content-center align-items-center presentacion-celular">
+                                <div class="nube">
+                                    <div class="contenido-de-caja">
+                                        <img src="assets/caja.png" alt="">
+                                        <h3>En la caja vas a encontrar</h3>
+                                        <ul>
+                                            <li>Equipo Samsung Galaxy A16</li>
+                                            <li>Herramienta de extraccion de SIM</li>
+                                            <li>Manual de usuario</li>
+                                            <li>Cable de datos</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-12 d-flex justify-content-center align-items-center presentacion-celular">
+                                <div class="nube">
+                                    <div class="comentarios">
+                                        <h3>Comentarios</h3>
+                                        <div>
+                                            <div class="col-12 mb-3">
+                                                <div class="card h-100 border light-bg shadow-none rounded-3">
+                                                    <div class="card-body texto-comentario">
+                                                        <div
+                                                            class="d-flex align-items-center mb-3 comentario-personalizado">
+                                                            <img src="assets/icon-7797704_1280.png"
+                                                                class="rounded-circle avatar me-3" alt="Mateo R.">
+                                                            <div class="flex-grow-1">
+                                                                <h6 class="mb-0 fw-bold">Mateo R.</h6>
+                                                                <div class="estrellas small text-warning">
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                </div>
+                                                            </div>
+                                                            <small class="text-muted">05/10/2026</small>
+                                                        </div>
+                                                        <p class="card-text text-secondary mb-0">
+                                                            Llegó super rápido y en perfectas condiciones. Las fotos con
+                                                            la cámara principal salen tremendas por el precio que tiene.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <div class="card h-100 border light-bg shadow-none rounded-3">
+                                                    <div class="card-body texto-comentario">
+                                                        <div
+                                                            class="d-flex align-items-center mb-3 comentario-personalizado">
+                                                            <img src="assets/icon-7797704_1280.png"
+                                                                class="rounded-circle avatar me-3" alt="Sofía G.">
+                                                            <div class="flex-grow-1">
+                                                                <h6 class="mb-0 fw-bold">Sofía G.</h6>
+                                                                <div class="estrellas small">
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                </div>
+                                                            </div>
+                                                            <small class="text-muted">21/09/2026</small>
+                                                        </div>
+                                                        <p class="card-text text-secondary mb-0">
+                                                            ¡Increíble teléfono! La pantalla es enorme y los colores se
+                                                            ven geniales. La batería dura todo el día.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <div class="card h-100 border light-bg shadow-none rounded-3">
+                                                    <div class="card-body texto-comentario">
+                                                        <div
+                                                            class="d-flex align-items-center mb-3 comentario-personalizado">
+                                                            <img src="assets/icon-7797704_1280.png"
+                                                                class="rounded-circle avatar me-3" alt="Camila L.">
+                                                            <div class="flex-grow-1">
+                                                                <h6 class="mb-0 fw-bold">Camila L.</h6>
+                                                                <div class="estrellas small text-warning">
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                    <i class="fa-regular fa-star"></i>
+                                                                    <!-- Estrella vacía -->
+                                                                </div>
+                                                            </div>
+                                                            <small class="text-muted">18/09/2026</small>
+                                                        </div>
+                                                        <p class="card-text text-secondary mb-0">
+                                                            Muy buen celular en relación precio-calidad. Es bastante
+                                                            fluido para redes sociales y videos, aunque la carga podría
+                                                            ser un poco más rápida.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer-pixcell" id="footer-redes">
+        <div class="footer-container">
+            <div class="footer-col">
+                <img src="assets/Copilot_20260907_190557.png" alt="Pixcell E-commerce de Celulares" class="footer-logo">
+            </div>
+            <div class="footer-col">
+                <ul>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i>
+                            /PixCellArgentina</a>
+                    </li>
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i>
+                            /PixCellArgentina</a>
+                    </li>
+                    <li><a href="https://x.com" target="_blank"><i class="bi bi-twitter-x"></i> /PixCellArgentina</a>
+                    </li>
+                    <li><a href="https://www.tiktok.com" target="_blank"><i class="bi bi-tiktok"></i>
+                            /PixCellArgentina</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Información Adicional</h5>
+                <ul>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="error.html">Términos y Condiciones</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 PixCell Argentina - Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

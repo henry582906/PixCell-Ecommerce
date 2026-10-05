@@ -1,5 +1,23 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(sesion.css);
+@import url(nosotros.css);
+@import url(registro.css);
+@import url(error.css);
+@import url(carousel.css);
+@import url(main-destacados.css);
+@import url(productos.css);
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+:root{
+    --color-rojo-intenso: #D32F2F;
+    --color-azul-electrico: #1976D2;
+    --color-blanco: #FFFFFF;
+    --color-plateado: #B0BEC5;
+    --color-gris-oscuro: #212121;
 }

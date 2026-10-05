@@ -1,0 +1,27 @@
+.form-sesion{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px;
+    border-radius: 2%;
+    background-color: #9393f0;
+    color: white;
+   
+    
+}
+.pixcellregistro{
+    min-height: 100vh;
+    background-color: var(--color-gris-oscuro);
+    background-image: url(../assets/Copilot_20260907_190557.png);
+    background-position: center 90%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.inicio-sesion{
+    background-color: red;
+    margin-top: 0 0;
+}

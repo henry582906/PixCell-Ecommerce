@@ -1,0 +1,39 @@
+.registro-manuell{
+    background-color: var(--color-azul-electrico);
+}
+.pixcell-billy{
+    background-color: var(--color-plateado);
+
+}
+.pixcell-billy{
+    background-color: var(--color-azul-electrico);
+    background-image: url(../assets/Copilot_20260907_190557.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 520px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.registro-billy{
+    width: 90%;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: var(--color-plateado);
+    text-align: left;
+    box-sizing: border-box;
+}
+.campo{
+    margin-bottom: 9%;
+
+}
+
+.campo input{
+    width: 100%;
+
+}
+.crear-cuenta{
+    background-color: aquamarine;
+}

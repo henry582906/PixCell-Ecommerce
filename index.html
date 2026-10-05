@@ -1,13 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PixCell</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce-PixCell</title>
+  <link rel="icon" href="assets/Copilot_20260907_190557.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
+
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="assets/Copilot_20260907_190557.png"
+            width="100px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html" target="_blank" style="color: black ;">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productos" style="color: black;">Modelos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer-redes" style="color: black;">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link inicio-sesion" href="sesion.html" style="color: white;" target="_blank">Inicio
+                sesion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link registro-manuell" href="registro.html" style="color: white;"
+                target="_blank">Registro</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">  <!--se agrego esto para el carrito lo envuelve-->
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <a href="error.html" class="btn btn-primary" type="button">Busqueda</a>
+            </form>
+            <!--carrito-->
+            <a href="carrito.html" class="ms-3 text-dark fs-4"> <i class="bi bi-cart3"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-banner active">
+          <img src="./assets/file.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p> En E-commerce, tenemos mas variedades de equipos nuevos con garantia oficial</p>
+          </div>
+        </div>
+        <div class="carousel-item carousel-banner">
+          <img src="./assets/WhatsApp Image 2026-09-20 at 8.49.20 PM.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>MOTO G52/POTENCIA QUE IMPRESIONA</h5>
+            <p>Triple camara 50MP y bateria que dura todo el dia</p>
+          </div>
+        </div>
+        <div class="carousel-item carousel-banner">
+          <img src="./assets/motofoto6.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>MOTOROLA MOTO E5 PLUS</h5>
+            <p>20% OFF+ envio gratis.El azul que todos</p>
+          </div>
+        </div>
+        <div class="carousel-item carousel-banner">
+          <img src="./assets/3file.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>SAMSUNG</h5>
+            <p>Triple camara 50MP y bateria que dura todo el dia</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section class="destacados pt-5 pb-5" id="productos">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-lg-11">
+                                        <h3>Productos Destacados</h3>
+                                        <div class="row g-4">
+                                            <article class="col-lg-4 col-md-4 col-6">
+                                                <div class="card card-producto-celular">
+                                                    <img src="assets/D_NQ_NP_2X_988202-MLA99854807973_112025-F.webp"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Samsung Galaxy A16</h5>
+                                                        <p class="card-text pt-5">$199.900</p>
+                                                        <a href="A16.html" class="btn w-100 btn-lista">Agregar al carrito</a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <article class="col-lg-4 col-md-4 col-6 d-flex justify-content-center">
+                                                <div class="card card-producto-celular">
+                                                    <img src="assets/D_NQ_NP_2X_994299-MLA79994471007_102024-F.webp"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Samsung Galaxy A06</h5>
+                                                        <p class="card-text pt-5">$149.900</p>
+                                                        <a href="A06.html" class="btn w-100 btn-lista">Agregar al carrito</a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <article class="col-lg-4 col-md-4 col-6 d-flex justify-content-center">
+                                                <div class="card card-producto-celular">
+                                                    <img src="assets/D_NQ_NP_2X_708257-MLA105493089072_012026-F.webp"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Motorola G17</h5>
+                                                        <p class="card-text pt-5">$179.900</p>
+                                                        <a href="error.html" class="btn w-100 btn-lista">Agregar al carrito</a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <article class="col-lg-4 col-md-4 col-6 d-flex justify-content-center">
+                                                <div class="card card-producto-celular">
+                                                    <img src="assets/D_NQ_NP_2X_859554-MLA106048223542_022026-F.webp"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Motorola G67</h5>
+                                                        <p class="card-text pt-5">$229.900</p>
+                                                        <a href="error.html" class="btn w-100 btn-lista">Agregar al carrito</a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <article class="col-lg-4 col-md-4 col-6 d-flex justify-content-center">
+                                                <div class="card card-producto-celular">
+                                                    <img src="assets/D_NQ_NP_2X_669898-MLA97107379125_112025-F.webp"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Samsung Galaxy A15</h5>
+                                                        <p class="card-text pt-5">$169.900</p>
+                                                        <a href="error.html" class="btn w-100 btn-lista">Agregar al carrito</a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <article class="col-lg-4 col-md-4 col-6 d-lg-flex justify-content-center">
+                                                <div class="card card-producto-celular">
+                                                    <img src="assets/D_NQ_NP_2X_686300-MLA99461633750_112025-F.webp"
+                                                        class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Motorola G54</h5>
+                                                        <p class="card-text pt-5">$249.900</p>
+                                                        <a href="error.html" class="btn w-100 btn-lista">Agregar al carrito</a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-4 d-none d-lg-block d-lg-flex justify-content-center align-items-center anuncio">
+                                <img src="assets/Ecommerce_banner_ad_generation_2K_20260919223920.jpeg" width="325px"
+                                    alt="" class="img-fluid rounded-3">
+                            </div>
+                        </div>
+                      </article>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <footer class="footer-pixcell" id="footer-redes">
+    <div class="footer-container">
+      <div class="footer-col">
+        <img src="assets/Copilot_20260907_190557.png" alt="Pixcell E-commerce de Celulares" class="footer-logo">
+      </div>
+      <div class="footer-col">
+        <ul>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i> /PixCellArgentina</a>
+          </li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i> /PixCellArgentina</a>
+          </li>
+          <li><a href="https://x.com" target="_blank"><i class="bi bi-twitter-x"></i> /PixCellArgentina</a></li>
+          <li><a href="https://www.tiktok.com" target="_blank"><i class="bi bi-tiktok"></i> /PixCellArgentina</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Información Adicional</h5>
+        <ul>
+          <li><a href="#">Política de Privacidad</a></li>
+          <li><a href="error.html">Términos y Condiciones</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 PixCell Argentina - Todos los derechos reservados</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
