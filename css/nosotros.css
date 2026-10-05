@@ -1,11 +1,11 @@
-img{
+.sobre-mi img{
     max-width: 100%;
     height: auto;
 }
 
 
 
-body.nosotros{
+.nosotros{
     background-color: #e9ecef;
 }
 
@@ -162,4 +162,18 @@ padding: 40px;
     order: -1; /* la foto sube arriba */
   }
   /* Función: foto más chica y arriba del texto, queda más prolijo en mobile */
+}
+
+.volver-inicio a{
+    background-color: #1976D2;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.volver-inicio a:hover{
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.18);
 }
