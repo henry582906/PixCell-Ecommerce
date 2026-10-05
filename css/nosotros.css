@@ -1,3 +1,9 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 body.nosotros{
     background-color: #e9ecef;
@@ -81,6 +87,7 @@ body.nosotros{
 
 .sobre-mi article{
     width: 50%;
+    min-width: 280px;
 
 }
 .henry{
@@ -122,4 +129,37 @@ padding: 40px;
     margin: 40px 0;
     font-size: 20px;
 
+}
+/*no de emergencia  malas practicas no*/
+/* RESPONSIVE - solo se activa en celular */
+@media (max-width: 768px) {
+  .sobre-nosotros-e-commerce {
+    font-size: 32px; /* de 60px a 32px en celu */
+  }
+  /* Función: achica el titulo para que no se salga */
+
+  .historia, .henryp, .henryp1 {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* Función: texto más chico y con aire a los costados */
+
+  .sobre-mi {
+    flex-direction: column; /* de fila a columna */
+    justify-content: center;
+  }
+  /* Función: en celu pone texto arriba y foto abajo. Antes tenías space-around que en celu queda mal */
+
+  .sobre-mi article {
+    width: 100%; /* de 50% a 100% en celu */
+  }
+  /* Función: el texto ocupa todo el ancho del celular */
+
+  .sobre-mi img {
+    width: 220px;
+    height: 220px;
+    order: -1; /* la foto sube arriba */
+  }
+  /* Función: foto más chica y arriba del texto, queda más prolijo en mobile */
 }
