@@ -21,7 +21,7 @@
     max-width: 400px;
     margin: 40px auto;
     padding: 20px;
-    background-color: white;
+    background-color: var(--color-plateado);
     text-align: left;
     box-sizing: border-box;
 }
@@ -33,4 +33,7 @@
 .campo input{
     width: 100%;
 
+}
+.crear-cuenta{
+    background-color: aquamarine;
 }
