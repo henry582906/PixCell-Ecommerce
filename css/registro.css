@@ -6,7 +6,7 @@
 
 }
 .pixcell-billy{
-    background-color: var(--color-azul-electrico);
+    background-color: var(--color-gris-oscuro);
     background-image: url(../assets/Copilot_20260907_190557.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -21,7 +21,7 @@
     max-width: 400px;
     margin: 40px auto;
     padding: 20px;
-    background-color: var(--color-plateado);
+    background-color: #9393f0;
     text-align: left;
     box-sizing: border-box;
     border-radius: 10px;
@@ -39,4 +39,6 @@
     background-color: aquamarine;
     margin-top: 10px;
     border-radius: 5px;
+    background-color: var(--color-rojo-intenso);
+    color: white;
 }
