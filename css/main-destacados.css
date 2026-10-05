@@ -1,6 +1,11 @@
 .card-producto-celular{
     width: 100%;
     max-width: 250px;
+    transition: 0.3s;
+}
+.card-producto-celular:hover{
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.18);
 }
 
 .card-producto-celular img{
@@ -8,14 +13,15 @@
     object-fit: contain;
 }
 
-.btn{
+.btn-lista{
     background-color: var(--color-rojo-intenso);
     color: #ffffff;
     transition: 0.3s;
 }
 
-.btn:hover{
+.btn-lista:hover{
     background-color: var(--color-rojo-intenso);
     color: #ffffff;
     transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.18);
 }
