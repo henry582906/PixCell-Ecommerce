@@ -1,8 +1,8 @@
-.carousel-item{
+.carousel-banner{
     height: 380px;
 }
 
-.carousel-item img{
+.carousel-banner img{
     width: 100%;
     height: 380px;
     object-fit: cover;
